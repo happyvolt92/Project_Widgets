@@ -1,0 +1,43 @@
+body{
+    background-image: url(/test/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+h1{
+    display: flex;
+    justify-content:center;
+    font-size: 3rem;
+    
+}
+
+h2{
+    display: flex;
+    justify-content:center;
+    font-size: 3rem;
+}
+
+.container{
+   display: flex;
+   
+}
+
+
+.calcul_icon{
+    margin: 100px;
+    
+}
+.weather_icon{
+    margin: 100px;
+}
+
+.agenda_icon{
+    margin: 100px;
+}
+
+.currency_icon{
+    margin: 100px;
+}
