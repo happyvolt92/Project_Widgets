@@ -5,21 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/ios-filled/50/000000/shortcuts.png">
     <title>Tools for all</title>
 </head>
 <body>
     
     <h1> Usefull Tools</h1>
 
-       <h2>Our Services</h2>
+        <nav class="navbar">
+            <header>
+            <h2>Our Services</h2>
+            <p>Click on the widget below </p>
+            </header>
+            <!--calculator-->
 
-        <div class="container">
-            <img class="calcul_icon"src="/test/image/calcul.svg">
-            <img class="weather_icon"src="/test/image/weather.svg">
-            <img class="agenda_icon"src="/test/image/agenda.svg">
-            <img class="currency_icon" src="/test/image/currency.svg">
-        </div>
+            <ul>
+                <li class="widget" >
+                    <button onclick="myFunction()">
+                        <img src="/test/image/calcul.svg" alt="calculator logo" >
+                    </button>
+                </li>
+
+                <div class="calculator_content">
+                    <div class="calc">
+                        <div class="calc-title">
+                          <span class="calc-title-span"> Calculator </span>
+                          <div class="calc-title-hr"></div>
+                        </div>
+                        <div class="calc-display">
+                          <div
+                            class="calc-display-span secondary-display"
+                            id="secondary-display"
+                          ></div>
+                          <div class="calc-display-span primary-display" id="display"></div>
+                        </div>
+                        <div class="calc-display-hr"></div>
+                        <div class="calc-btn" id="btn">
+                          <button class="calc-btn-primary" id="seven">7</button>
+                          <button class="calc-btn-primary" id="eight">8</button>
+                          <button class="calc-btn-primary" id="nine">9</button>
+                          <button class="calc-btn-primary btn-bg" id="divide">/</button>
+                          <button class="calc-btn-primary" id="four">4</button>
+                          <button class="calc-btn-primary" id="five">5</button>
+                          <button class="calc-btn-primary" id="six">6</button>
+                          <button class="calc-btn-primary btn-bg" id="multiply">*</button>
+                          <button class="calc-btn-primary" id="one">1</button>
+                          <button class="calc-btn-primary" id="two">2</button>
+                          <button class="calc-btn-primary" id="three">3</button>
+                          <button class="calc-btn-primary btn-bg" id="add">+</button>
+                          <button class="calc-btn-primary btn-bg" id="decimal">.</button>
+                          <button class="calc-btn-primary" id="zero">0</button>
+                          <button class="calc-btn-primary btn-bg-equal" id="equals">=</button>
+                          <button class="calc-btn-primary btn-bg" id="subtract">-</button>
+                          <button class="calc-btn-clear" id="clear">clear</button>
+                        </div>
+                      </div>
+                </div>
+
+                <!--weather-->
+                <li class="widget" >
+                    <button onclick="myFunctionweather()"><img  src="/test/image/weather.svg" alt="weather logo">
+                    </button>
+                </li>
+                
+                <div class="weather_content"></div>
+
+                <!--agenda-->
+                <li class="widget" >
+                    <button onclick="myFunctionagenda()"><img  src="/test/image/agenda.svg" alt="agenda  logo">
+                    </button>
+                </li>
+
+                <div class="agenda_content"></div>
+
+                <!--currency-->
+                <li class="widget">
+                    <button onclick="myFunctioncurrency()"> <img src="/test/image/currency.svg" alt="currency logo">
+                    </button>
+                </li>
 
 
+                <div class="currency_content"></div>
+
+            </ul>
+        </nav>
+
+       
+
+
+        <script type="text/javascript" src="monscript.js"></script>
 </body>
 </html>
