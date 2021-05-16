@@ -1,0 +1,65 @@
+body{
+    background-image: url(/test/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+ }
+
+h1{
+    margin-top:50px;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline orangered;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline orangered;
+}
+
+
+/*test  hide/show */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+  @keyframes slideDown {
+      100%{
+          transform: translateY(0);
+          opacity: 1;
+      }
+  }
+ 
+img{
+    width:150px;
+
+}
+ /*responsive navbar */
+@media screen and (max-width: 500px) {
+    .navbar a { 
+        float: none;
+        display: block;
+     }
+}       
+
+header {
+    text-align: center;
+    margin-top: 280px;
+}
+
+li{
+    float: left;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+
